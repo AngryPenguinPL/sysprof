@@ -7,7 +7,7 @@
 
 Name:		sysprof
 Version:	3.30.1
-Release:	%mkrel 1
+Release:	1
 Summary:	A system-wide Linux profiler
 Group:		Development/Tools
 
