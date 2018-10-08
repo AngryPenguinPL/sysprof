@@ -16,10 +16,10 @@ URL:		http://www.sysprof.com
 Source0:	https://download.gnome.org/sources/sysprof/%{url_ver}/sysprof-%{version}.tar.xz
 BuildRequires:	binutils-devel
 BuildRequires:	gettext
-BuildRequires:	gtk3-devel
+BuildRequires:	pkgconfig(gtk+-3.0)
 BuildRequires:	itstool
-BuildRequires:	polkit-devel
-BuildRequires:	systemd-devel
+BuildRequires:	polkit-1-devel
+BuildRequires:	pkgconfig(systemd)
 BuildRequires:	appstream-util
 BuildRequires:	desktop-file-utils
 BuildRequires:	libxml2-utils
